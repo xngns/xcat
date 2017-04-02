@@ -1,10 +1,17 @@
 Xcat_util
 Xcat_functor
+Xcat_functor_intf
 Xcat_applicative
+Xcat_applicative_intf
 Xcat_monad
+Xcat_monad_intf
 Xcat_foldable
+Xcat_foldable_intf
 Xcat_traversable
+Xcat_traversable_intf
 Xcat_semigroup
+Xcat_semigroup_intf
 Xcat_monoid
+Xcat_monoid_intf
 Xcat_instances
 Xcat
