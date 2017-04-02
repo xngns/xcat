@@ -1,3 +1,3 @@
 let id x = x
 
-let const x = fun _ -> x
+let const x _ = x
