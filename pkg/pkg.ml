@@ -10,7 +10,6 @@ let () =
     ; "Xcat_monad"
     ; "Xcat_foldable"
     ; "Xcat_traversable"
-    ; "Xcat_semigroup"
     ; "Xcat_monoid"
     ; "Xcat_instances"
     ; "Xcat"

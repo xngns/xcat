@@ -1,1 +1,0 @@
-include Xcat_semigroup_intf

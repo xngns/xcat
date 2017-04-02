@@ -1,4 +1,5 @@
 module type S = sig
-  include Xcat_semigroup.S
+  type t
+  val mult : t -> t -> t
   val unit : t
 end
