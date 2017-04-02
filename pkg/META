@@ -1,0 +1,7 @@
+description = ""
+version = "%%VERSION_NUM%%"
+requires = ""
+archive(byte) = "xcat.cma"
+archive(native) = "xcat.cmxa"
+plugin(byte) = "xcat.cma"
+plugin(native) = "xcat.cmxs"

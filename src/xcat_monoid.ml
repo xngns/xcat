@@ -1,0 +1,1 @@
+include Xcat_monoid_intf
