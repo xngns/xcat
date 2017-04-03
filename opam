@@ -1,11 +1,11 @@
 opam-version: "1.2"
 maintainer: "Henry Till <henrytill@gmail.com>"
 authors: ["Henry Till <henrytill@gmail.com>"]
-homepage: "https://github.com/henrytill/xcat"
-doc: "https://henrytill.github.io/xcat/doc"
+homepage: "https://github.com/xngns/xcat"
+doc: "https://xngns.github.io/xcat/doc"
 license: "ISC"
-dev-repo: "https://github.com/henrytill/xcat.git"
-bug-reports: "https://github.com/henrytill/xcat/issues"
+dev-repo: "https://github.com/xngns/xcat.git"
+bug-reports: "https://github.com/xngns/xcat/issues"
 tags: []
 available: [ ocaml-version >= "4.01.0"]
 depends:

@@ -6,7 +6,7 @@ xcat is TODO
 
 xcat is distributed under the ISC license.
 
-Homepage: https://github.com/henrytill/xcat  
+Homepage: https://github.com/xngns/xcat
 
 ## Installation
 
@@ -23,7 +23,7 @@ The documentation and API reference is generated from the source
 interfaces. It can be consulted [online][doc] or via `odig doc
 xcat`.
 
-[doc]: https://henrytill.github.io/xcat/doc
+[doc]: https://xngns.github.io/xcat/doc
 
 ## Sample programs
 
