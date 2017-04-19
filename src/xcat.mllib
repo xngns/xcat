@@ -9,6 +9,8 @@ Xcat_foldable
 Xcat_foldable_intf
 Xcat_traversable
 Xcat_traversable_intf
+Xcat_semigroup
+Xcat_semigroup_intf
 Xcat_monoid
 Xcat_monoid_intf
 Xcat_instances
