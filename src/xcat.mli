@@ -6,3 +6,4 @@ module Traversable = Xcat_traversable
 module Semigroup   = Xcat_semigroup
 module Monoid      = Xcat_monoid
 module Instances   = Xcat_instances
+module Util        = Xcat_util
