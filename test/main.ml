@@ -4,6 +4,13 @@
    %%NAME%% %%VERSION%%
   ---------------------------------------------------------------------------*)
 
+let suite =
+  Props_functor.suite
+
+let () =
+  let errcode = QCheck_runner.run_tests ~verbose:true suite in
+  exit errcode
+
 (*---------------------------------------------------------------------------
    Copyright (c) 2017 Henry Till
 

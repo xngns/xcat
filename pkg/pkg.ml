@@ -19,4 +19,4 @@ let () =
   in
   Pkg.describe "xcat" @@ fun c ->
   Ok [ Pkg.mllib ~api:api "src/xcat.mllib";
-       Pkg.test "test/test"; ]
+       Pkg.test "test/main"; ]
