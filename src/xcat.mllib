@@ -1,4 +1,4 @@
-Xcat_util
+Xcat
 Xcat_functor
 Xcat_functor_intf
 Xcat_applicative
@@ -14,4 +14,4 @@ Xcat_semigroup_intf
 Xcat_monoid
 Xcat_monoid_intf
 Xcat_instances
-Xcat
+Xcat_util
