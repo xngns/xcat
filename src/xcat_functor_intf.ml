@@ -4,7 +4,8 @@ module type S = sig
 end
 
 module type INFIX = sig
-  include S
+  type 'a t
+  include S with type 'a t := 'a t
   val (<$>) : ('a -> 'b) -> 'a t -> 'b t
   val (<$) : 'a -> 'b t -> 'a t
 end

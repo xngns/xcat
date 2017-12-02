@@ -5,12 +5,14 @@ module type S = sig
 end
 
 module type UTIL = sig
-  include S
+  type 'a t
+  include S                     with type 'a t := 'a t
   include Xcat_applicative.UTIL with type 'a t := 'a t
 end
 
 module type INFIX = sig
-  include S
+  type 'a t
+  include S                      with type 'a t := 'a t
   include Xcat_applicative.INFIX with type 'a t := 'a t
   val (>>=) : 'a t -> ('a -> 'b t) -> 'b t
 end
