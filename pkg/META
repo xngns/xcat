@@ -5,3 +5,13 @@ archive(byte) = "xcat.cma"
 archive(native) = "xcat.cmxa"
 plugin(byte) = "xcat.cma"
 plugin(native) = "xcat.cmxs"
+
+package "top" (
+ version = "%%VERSION_NUM%%"
+ description = "Xcat toplevel support"
+ requires = "xcat"
+ archive(byte) = "xcat_top.cma"
+ archive(native) = "xcat_top.cmxa"
+ plugin(byte) = "xcat_top.cma"
+ plugin(native) = "xcat_top.cmxs"
+)

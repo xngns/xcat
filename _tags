@@ -1,3 +1,5 @@
-true     : bin_annot, safe_string, package(bytes)
-<src>    : include
-<test/*> : package(qcheck)
+true             : bin_annot, safe_string, package(bytes)
+<src>            : include
+<src/xcat_top.*> : package(compiler-libs.toplevel)
+<test>           : include
+<test/*>         : package(qcheck)
